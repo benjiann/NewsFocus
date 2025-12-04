@@ -41,7 +41,7 @@ Set the following in **Cloudflare Pages → Settings → Environment Variables**
 
 | Variable Name     | Description                                 |
 |------------------|---------------------------------------------|
-| NEWSAPI_KEY       | Your NewsAPI API Key                        |
+| NEWS_API_KEY       | Your NewsAPI API Key                        |
 | NEWS_LANGUAGE     | Language code, e.g. `en`                   |
 
 > ⚠️ **Do not hardcode the API key** in frontend code. Use the Functions proxy to protect it.
@@ -108,6 +108,7 @@ cd news-aggregator
 > You can also integrate [Font Awesome](https://fontawesome.com/) icons in `index.html` if you want more visual flair.
 
 ---
+
 
 
 
